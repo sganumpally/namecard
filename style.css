@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@400;600&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0ede4;
+}
+
+.name-card {
+  width: 380px;
+  background-color: #fff7e6;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 25px;
+  border: 2px solid #d2b48c;
+  position: relative;
+}
+
+.pfp {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 4px solid #d2b48c;
+  object-fit: cover;
+}
+
+.outline {
+  width: 100px;
+  height: 3px;
+  background-color: #d2b48c;
+  margin: 15px auto;
+}
+
+.name {
+  font-family: 'Amatic SC', cursive;
+  font-size: 32px;
+  font-weight: 700;
+  color: #4b3f2f;
+  margin-bottom: 5px;
+}
+
+.major {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  color: #997c62;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  color: #6b5b4e;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.contact-button {
+  display: inline-block;
+  background-color: #d2b48c;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #c19a74;
+}
+
+.top-circle {
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  width: 70px;
+  height: 70px;
+  background-color: #efd9a7;
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  z-index: -1;
+}
+
+.bottom-circle {
+  position: absolute;
+  bottom: -30px;
+  left: -30px;
+  width: 90px;
+  height: 90px;
+  background-color: #d4c19c;
+  border-radius: 50%;
+  z-index: -1;
+}
